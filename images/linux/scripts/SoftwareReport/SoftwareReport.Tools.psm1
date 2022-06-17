@@ -293,6 +293,10 @@ function Get-SphinxVersion {
     return "Sphinx Open Source Search Server $sphinxVersion"
 }
 
+function Get-TfsecVersion {
+    return "tfsec $(tfsec --version) (homebrew)"
+}
+
 function Get-YamllintVersion {
     return "$(yamllint --version)"
 }
